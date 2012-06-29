@@ -10,7 +10,7 @@ web1:
     - curl
     - eaccelerator
   before_deploy:
-    - "mv pagoda/themes app/wp-content/themes"
+  #  - "mv pagoda/themes app/wp-content/themes"
     - "mv pagoda/plugins app/wp-content/plugins"
 db1:
   name: wpdb
