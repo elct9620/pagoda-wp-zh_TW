@@ -1,0 +1,46 @@
+﻿/*------------------------------------------------------------------------------
+Date Time: 12:14 PM Thursday, May 31, 2012 - 20120531
+Command: find . -name "*.css" -exec grep -Hno "italic" {} \;
+Trac revision: 20950
+.locale-zh-tw 
+------------------------------------------------------------------------*/
+/* zh_TW: Remove italic properties. */ 
+.locale-zh-tw .media-upload-form label.form-help,
+.locale-zh-tw td.help,
+.locale-zh-tw #media-upload p.help,
+.locale-zh-tw #media-upload label.help,
+.locale-zh-tw .howto,
+.locale-zh-tw p.install-help,
+.locale-zh-tw form.upgrade .hint,
+.locale-zh-tw #commentsdiv .comments-box thead th,
+.locale-zh-tw .tablenav .displaying-num,
+.locale-zh-tw .inline-edit-row fieldset span.title,
+.locale-zh-tw .inline-edit-row fieldset span.checkbox-title,
+.locale-zh-tw p.help,
+.locale-zh-tw p.description,
+.locale-zh-tw span.description,
+.locale-zh-tw .form-wrap p,
+.locale-zh-tw form.upgrade .hint,
+.locale-zh-tw .imgedit-help,
+.locale-zh-tw #utc-time,
+.locale-zh-tw #local-time,
+.locale-zh-tw #dashboard_recent_comments .comment-meta .approve,
+.locale-zh-tw .js .input-with-default-title,
+.locale-zh-tw .link-to-original,
+.locale-zh-tw #plugin-information #section-screenshots li p,
+.locale-zh-tw .press-this .howto,
+.locale-zh-tw .nonessential {
+	font-style: normal;
+}
+
+/*  ./wp-includes/css/editor.dev.css:587  */
+.wp_themeSkin .mce_address span.mceText {
+	font-style: normal !important;
+}
+
+/*  ./wp-includes/js/tinymce/plugins/wpeditimage/css/editimage.css:44  */
+/*  ./wp-includes/js/tinymce/themes/advanced/skins/default/ui.css:115  */
+/*  ./wp-includes/js/tinymce/themes/advanced/skins/default/ui.css:126  */
+/*  ./wp-includes/js/tinymce/themes/advanced/skins/highcontrast/ui.css:95  */
+/*  ./wp-includes/js/tinymce/themes/advanced/skins/o2k7/ui.css:118  */
+/*  ./wp-includes/js/tinymce/themes/advanced/skins/o2k7/ui.css:129  */

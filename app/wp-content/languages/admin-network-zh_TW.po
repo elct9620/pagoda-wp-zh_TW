@@ -1,0 +1,1099 @@
+# Translation of Network Admin in Chinese (Taiwan)
+# This file is distributed under the same license as the Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2012-06-28 02:41:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Network Admin\n"
+
+#: wp-admin/network/settings.php:127
+msgid "What you would like to call this network."
+msgstr "你想要怎麼稱呼此網誌網路。"
+
+#: wp-admin/network/upgrade.php:25
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Update Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr "當你自「升級/可用升級」（從網誌網路管理導覽選單或工具列）升級至新版 WordPress 後，僅使用此畫面一次。點擊「升級網誌網路」按鈕將設定網路中的每個網誌，每次五個，並確認每個資料庫升級完成。"
+
+#: wp-admin/network/site-users.php:259
+msgid "You may add from existing network users, or set up a new user to add to this site."
+msgstr "你可以從網誌網路中現有的帳號中新增，或是新增一個新的帳號到此網誌。"
+
+#: wp-admin/network/site-users.php:261
+msgid "You may add from existing network users to this site."
+msgstr "你可以將已存在的網誌網路帳號加入此網誌。"
+
+#: wp-admin/network/settings.php:38
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Documentation on Network Settings</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">網誌網路設定說明文件</a>"
+
+#: wp-admin/network/site-users.php:231
+msgid "Enter the username and email."
+msgstr "輸入使用者名稱及電子郵件信箱。"
+
+#: wp-admin/network/site-users.php:219
+msgid "Select a user to change role."
+msgstr "選擇一個使用者以變更角色。"
+
+#: wp-admin/network/site-users.php:225
+msgid "Select a user to remove."
+msgstr "選擇一個使用者以刪除。"
+
+#: wp-admin/network/site-users.php:228
+msgid "User created."
+msgstr "使用者已建立。"
+
+#: wp-admin/network/users.php:43
+msgid "Warning! User cannot be deleted. The user %s is a network administrator."
+msgstr "警告！該帳號無法刪除。帳號 %s 為網誌網路管理員。"
+
+#: wp-admin/network/users.php:50
+msgid "What should be done with posts and links owned by <em>%s</em>?"
+msgstr "關於帳號 <em>%s</em> 的文章以及鏈結應該如何處理？"
+
+#: wp-admin/network/users.php:68
+msgid "Site: %s"
+msgstr "網誌：%s"
+
+#: wp-admin/network/site-users.php:287 wp-admin/network/user-new.php:103
+msgid "Add User"
+msgstr "新增使用者"
+
+#: wp-admin/network/user-new.php:51
+msgid "Cannot add user."
+msgstr "無法新增使用者。"
+
+#: wp-admin/network/site-users.php:257
+msgid "Add User to This Site"
+msgstr "為此網誌新增使用者"
+
+#: wp-admin/network/sites.php:89
+msgid "You are not allowed to delete the site."
+msgstr "你無法刪除這個網誌。"
+
+#: wp-admin/network/site-users.php:210
+msgid "User is already a member of this site."
+msgstr "使用者已經是此網誌的成員。"
+
+#: wp-admin/network/site-info.php:84
+msgid "Site info updated."
+msgstr "網誌資訊已更新。"
+
+#: wp-admin/network/users.php:40
+msgid "Warning! User %s cannot be deleted."
+msgstr "警告！無法刪除使用者 %s。"
+
+#: wp-admin/network/site-users.php:213
+msgid "Enter the username of an existing user."
+msgstr "輸入了一個已經存在的使用者名稱。"
+
+#: wp-admin/network/themes.php:241
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "你無法刪除這個佈景主題，因為它已經在主網誌啟用。"
+
+#: wp-admin/network/site-new.php:104 wp-admin/network/site-new.php:113
+msgid "Add New Site"
+msgstr "新增新網誌"
+
+#: wp-admin/network/users.php:27
+msgid "Transfer or delete posts and links before deleting users."
+msgstr "刪除帳號前先轉換或刪除文章與鏈結。"
+
+#: wp-admin/network/themes.php:237
+msgctxt "network"
+msgid "Theme deleted."
+msgid_plural "%s themes deleted."
+msgstr[0] "%s 個佈景主題已刪除。"
+
+#: wp-admin/network/themes.php:210
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Documentation on Network Themes</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">網誌網路佈景主題說明文件</a>"
+
+#: wp-admin/network/site-info.php:104 wp-admin/network/site-settings.php:94
+#: wp-admin/network/site-themes.php:148 wp-admin/network/site-users.php:192
+msgid "Info"
+msgstr "資訊"
+
+#: wp-admin/network/themes.php:154
+msgid "Are you sure you wish to delete these themes?"
+msgstr "你想要刪除這個佈景主題嗎？"
+
+#: wp-admin/network/themes.php:163
+msgid "Yes, Delete this theme"
+msgid_plural "Yes, Delete these themes"
+msgstr[0] "對，刪除佈景主題"
+
+#: wp-admin/network/themes.php:149
+msgid "You are about to remove the following theme:"
+msgid_plural "You are about to remove the following themes:"
+msgstr[0] "你正要移除以下佈景主題："
+
+#: wp-admin/network/themes.php:148
+msgid "This theme may be active on other sites in the network."
+msgid_plural "These themes may be active on other sites in the network."
+msgstr[0] "佈景主題或許已由網誌網路的其他網誌啟用。"
+
+#: wp-admin/network/themes.php:146
+msgid "Delete Theme"
+msgid_plural "Delete Themes"
+msgstr[0] "刪除佈景主題"
+
+#: wp-admin/network/menu.php:41
+msgctxt "plugin editor"
+msgid "Add New"
+msgstr "新增外掛"
+
+#: wp-admin/network/menu.php:46 wp-admin/network/settings.php:19
+msgid "Network Settings"
+msgstr "網誌網路設定"
+
+#: wp-admin/network/site-themes.php:170
+msgid "Network enabled themes are not shown on this screen."
+msgstr "網誌網路上啟用的佈景主題不會顯示在此畫面。"
+
+#: wp-admin/network/themes.php:22
+msgid "You do not have sufficient permissions to manage network themes."
+msgstr "你沒有權限管理網誌網路的佈景主題。"
+
+#: wp-admin/network/menu.php:58
+msgid "Available Updates"
+msgstr "可用更新"
+
+#: wp-admin/network/user-new.php:23
+msgid "Add User will set up a new user account on the network and send that person an email with username and password."
+msgstr "新增使用者將設定網誌網路上的帳號並送一封內含帳號與密碼的電子郵件。"
+
+#: wp-admin/network/site-info.php:88 wp-admin/network/site-settings.php:78
+#: wp-admin/network/site-themes.php:134 wp-admin/network/site-users.php:168
+msgid "Edit Site: <a href=\"%1$s\">%2$s</a>"
+msgstr "編輯網誌站台：<a href=\"%1$s\">%2$s</a>"
+
+#: wp-admin/network/themes.php:111
+msgid "You do not have sufficient permissions to delete themes for this site."
+msgstr "你沒有權限刪除此網誌的佈景主題。"
+
+#: wp-admin/network/site-themes.php:165 wp-admin/network/themes.php:234
+msgid "Theme disabled."
+msgid_plural "%s themes disabled."
+msgstr[0] "%s 個佈景主題已停用。"
+
+#: wp-admin/network/site-info.php:39 wp-admin/network/site-settings.php:39
+#: wp-admin/network/site-themes.php:55 wp-admin/network/site-users.php:45
+msgid "Invalid site ID."
+msgstr "非法的網誌 ID。"
+
+#: wp-admin/network/site-themes.php:162 wp-admin/network/themes.php:231
+msgid "Theme enabled."
+msgid_plural "%s themes enabled."
+msgstr[0] "%s 個佈景主題已啟用。"
+
+#: wp-admin/network/site-themes.php:167 wp-admin/network/themes.php:239
+msgid "No theme selected."
+msgstr "沒有選定任何佈景主題。"
+
+#: wp-admin/network/site-info.php:26 wp-admin/network/site-settings.php:26
+#: wp-admin/network/site-themes.php:31 wp-admin/network/site-users.php:29
+msgid "<strong>Themes</strong> - This area shows themes that are not already enabled across the network. Enabling a theme in this menu makes it accessible to this site. It does not activate the theme, but allows it to show in the site&#8217;s Appearance menu. To enable a theme for the entire network, see the <a href=\"%s\">Network Themes</a> screen."
+msgstr "<strong>佈景主題</strong> - 此區域顯示那些沒有在整個網誌網路啟用的佈景主題。在此啟用某個佈景主題，此網誌就擁有使用此佈景主題的權限。但此網誌不會立即更換為你指定的佈景主題，但你選擇的佈景主題會出現在網誌的「佈景主題」選單裡。要為整個網誌網路啟用佈景主題，請查看<a href=\"%s\">網誌網路佈景主題</a>頁面。"
+
+#: wp-admin/network/site-info.php:89 wp-admin/network/site-settings.php:79
+#: wp-admin/network/site-themes.php:135 wp-admin/network/site-users.php:169
+msgid "Edit Site: %s"
+msgstr "編輯網誌：%s"
+
+#: wp-admin/network/themes.php:166
+msgid "No, Return me to the theme list"
+msgstr "不，回到我的佈景主題列表"
+
+#: wp-admin/network/site-info.php:27 wp-admin/network/site-settings.php:27
+#: wp-admin/network/site-themes.php:32 wp-admin/network/site-users.php:30
+msgid "<strong>Settings</strong> - This page shows a list of all settings associated with this site. Some are created by WordPress and others are created by plugins you activate. Note that some fields are grayed out and say Serialized Data. You cannot modify these values due to the way the setting is stored in the database."
+msgstr "<strong>設定</strong> - 此頁面顯示網誌的所有設定選項。某些設定選項可能由 WordPress 建立，也有一些來自你使用的外掛。某些欄位可能是灰色的，顯示 Serialized Data 。由於設定儲存於資料庫中，因此你無法編輯這些數值。"
+
+#: wp-admin/network/site-themes.php:131 wp-admin/network/themes.php:197
+msgctxt "themes per page (screen options)"
+msgid "Themes"
+msgstr "佈景主題"
+
+#: wp-admin/network/site-info.php:24 wp-admin/network/site-settings.php:24
+#: wp-admin/network/site-themes.php:29 wp-admin/network/site-users.php:27
+msgid "<strong>Info</strong> - The domain and path are rarely edited as this can cause the site to not work properly. The Registered date and Last Updated date are displayed. Network admins can mark a site as archived, spam, deleted and mature, to remove from public listings or disable."
+msgstr "<strong>資訊</strong> - 一般情況下，盡量不要變更網域名稱和路徑，因為這麼做經常會發生問題。註冊日期和最後更新日期會在此處顯示。網誌網路管理者可以在這裡設定網誌的狀態，包括彙整、垃圾、刪除和成人內容，還可以從公開列表中刪除或停用某個網誌。"
+
+#: wp-admin/network/site-info.php:25 wp-admin/network/site-settings.php:25
+#: wp-admin/network/site-themes.php:30 wp-admin/network/site-users.php:28
+msgid "<strong>Users</strong> - This displays the users associated with this site. You can also change their role, reset their password, or remove them from the site. Removing the user from the site does not remove the user from the network."
+msgstr "<strong>帳號</strong> - 顯示屬於此網誌的帳號。你可以變更他們的角色、重設帳號密碼或從網誌刪除某人。刪除帳號只會影響此網誌，帳號並不會在網誌網路中被移除。"
+
+#: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-themes.php:28 wp-admin/network/site-users.php:26
+msgid "The menu is for editing information specific to individual sites, particularly if the admin area of a site is unavailable."
+msgstr "此選單用於為特定網誌編輯資訊，此功能在網誌出現問題時仍然有用。"
+
+#: wp-admin/network/sites.php:35
+msgid "Dashboard leads to the Dashboard for that site."
+msgstr "「控制台」引導你至該網誌的控制台。"
+
+#: wp-admin/network/settings.php:174
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
+msgstr "允許網誌管理員透過他們網誌的「新增帳號」頁面新增使用者。"
+
+#: wp-admin/network/settings.php:300
+msgid "Language Settings"
+msgstr "語言設定"
+
+#: wp-admin/network/site-settings.php:74
+msgid "Site options updated."
+msgstr "網誌選項已更新。"
+
+#: wp-admin/network/menu.php:31
+msgid "Installed Themes"
+msgstr "已安裝佈景主題"
+
+#: wp-admin/network/menu.php:27
+msgid "Themes %s"
+msgstr "佈景主題 %s"
+
+#: wp-admin/network/site-info.php:32 wp-admin/network/site-new.php:29
+#: wp-admin/network/site-settings.php:32 wp-admin/network/site-themes.php:37
+#: wp-admin/network/site-users.php:35 wp-admin/network/sites.php:45
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Documentation on Site Management</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">網誌管理說明文件</a>"
+
+#: wp-admin/network/index.php:38 wp-admin/network/site-info.php:33
+#: wp-admin/network/site-new.php:30 wp-admin/network/site-settings.php:33
+#: wp-admin/network/site-themes.php:38 wp-admin/network/site-users.php:36
+#: wp-admin/network/sites.php:46 wp-admin/network/user-new.php:30
+#: wp-admin/network/users.php:245
+msgid "<a href=\"http://wordpress.org/support/forum/multisite/\" target=\"_blank\">Support Forums</a>"
+msgstr "<a href=\"http://tw.forums.wordpress.org/forum/multisite/\" target=\"_blank\">支援論壇</a>"
+
+#: wp-admin/network/menu.php:18 wp-admin/network/sites.php:293
+msgctxt "site"
+msgid "Add New"
+msgstr "新增網誌"
+
+#: wp-admin/network/menu.php:17
+msgid "All Sites"
+msgstr "全部網誌"
+
+#: wp-admin/network/index.php:37
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin\" target=\"_blank\">Documentation on the Network Admin</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin\" target=\"_blank\">網誌網路管理說明文件</a>"
+
+#: wp-admin/network/site-themes.php:22
+msgid "You do not have sufficient permissions to manage themes for this site."
+msgstr "你權限管理此網誌的佈景主題。"
+
+#: wp-admin/network/site-new.php:101
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "網誌站台已儲存。 <a href=\"%1$s\">造訪控制台</a> 或 <a href=\"%2$s\">編輯網誌站台</a>"
+
+#: wp-admin/network/sites.php:31
+msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr "「新增網誌」鏈結將帶你到新增網誌的頁面。你可以透過名稱、ID 或是 IP 位址搜尋某個網誌。在顯示選項中，你可以選擇每頁顯示的網誌數目。"
+
+#: wp-admin/network/user-new.php:17
+msgid "You do not have sufficient permissions to add users to this network."
+msgstr "你沒有權限新增帳號至此網誌網路。"
+
+#: wp-admin/network/sites.php:25
+msgctxt "sites per page (screen options)"
+msgid "Sites"
+msgstr "網誌"
+
+#: wp-admin/network/site-new.php:88
+msgid ""
+"New site created by %1s\n"
+"\n"
+"Address: %2s\n"
+"Name: %3s"
+msgstr ""
+"%1s 建立了新網站\n"
+"\n"
+"網址：%2s\n"
+"名稱：%3s"
+
+#: wp-admin/network/sites.php:255
+msgid "You do not have permission to delete that site."
+msgstr "你沒有刪除此網誌的權限。"
+
+#: wp-admin/network/site-new.php:17
+msgid "You do not have sufficient permissions to add sites to this network."
+msgstr "你沒有權限新增網誌至此網誌網路。"
+
+#: wp-admin/network/menu.php:32 wp-admin/network/themes.php:223
+msgctxt "theme"
+msgid "Add New"
+msgstr "新增佈景主題"
+
+#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:244
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Documentation on Network Users</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">網誌網路帳號說明文件</a>"
+
+#: wp-admin/network/sites.php:40
+msgid "Clicking on bold headings can re-sort this table."
+msgstr "點擊粗體標題可對表格資料排序。"
+
+#: wp-admin/network/sites.php:37
+msgid "Delete which is a permanent action after the confirmation screens."
+msgstr "刪除是永久性的動作，網誌將在確認後刪除。"
+
+#: wp-admin/network/themes.php:205
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
+msgstr "網誌網路管理員可以對某個網誌的佈景主題進行設定，請在「網誌」畫面點擊「編輯網誌」；透過「所有網誌」頁面上相關網誌對應的「編輯」鏈結可以找到設定選項，只有網誌網路管理員可以安裝或編輯佈景主題。"
+
+#: wp-admin/network/sites.php:34
+msgid "An Edit link to a separate Edit Site screen."
+msgstr "「編輯」鏈結，帶你前往「編輯網誌」畫面。"
+
+#: wp-admin/network/upgrade.php:32
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Documentation on Update Network</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">升級網誌網路說明文件</a>"
+
+#: wp-admin/network/site-new.php:23
+msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
+msgstr "此畫面提供超級管理員新增網誌至網誌網路。這裡不受註冊設定所限制。"
+
+#: wp-admin/network/menu.php:53
+msgid "Updates"
+msgstr "更新"
+
+#: wp-admin/network/index.php:32
+msgid "The Right Now box provides the network administrator with links to the screens to either create a new site or user, or to search existing users and sites. Screens for Sites and Users are also accessible through the left-hand navigation in the Network Admin section."
+msgstr "「現況」區塊提供網誌網路管理員一些鏈結，使用這些鏈結，不只可以新建網站或使用者，也能搜尋現存的使用者及網站。網站及使用者頁面也能透過網誌網路管理區左手邊的導覽項目來存取。"
+
+#: wp-admin/network/settings.php:33
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgstr "超級管理員無法在選項畫面中被加入。你必須到網誌網路管理→使用者頁面中的使用者列表中點擊使用者名稱或編輯鏈結。這將會帶你至編輯使用者頁面，那兒會有個選項讓你勾選並提昇至超級管理員權限。"
+
+#: wp-admin/network.php:231
+msgctxt "subdirectory examples"
+msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
+msgstr "像 <code>%1$s/site1</code> 與 <code>%1$s/site2</code>"
+
+#: wp-admin/network.php:241 wp-admin/network.php:245 wp-admin/network.php:285
+msgid "Server Address"
+msgstr "伺服器位址"
+
+#: wp-admin/network.php:259
+msgid "Because you are using <code>localhost</code>, the sites in your WordPress network must use sub-directories. Consider using <code>localhost.localdomain</code> if you wish to use sub-domains."
+msgstr "因為你使用 <code>localhost</code>，你的 WordPress 網誌網路必須使用子目錄。若你想使用子網域，請考慮使用 <code>localhost.localdomain</code>。"
+
+#: wp-admin/network.php:262 wp-admin/network.php:272 wp-admin/network.php:279
+msgid "The main site in a sub-directory install will need to use a modified permalink structure, potentially breaking existing links."
+msgstr "要在主網誌為子目錄的情況下安裝，需要修改固定網址結構，有可能破壞現有的鏈結。"
+
+#: wp-admin/network.php:269
+msgid "Because your install is in a directory, the sites in your WordPress network must use sub-directories."
+msgstr "因為你的安裝在目錄下，你的 WrodPress 網誌網路必須使用子目錄。"
+
+#: wp-admin/network.php:277
+msgid "Sub-domain Install"
+msgstr "子網域安裝"
+
+#: wp-admin/network.php:278
+msgid "Because your install is not new, the sites in your WordPress network must use sub-domains."
+msgstr "因為你的安裝是舊的，你的 WordPress 網誌網路必須使用子網域。"
+
+#: wp-admin/network.php:292
+msgid "Network Title"
+msgstr "網誌網路標題"
+
+#: wp-admin/network.php:295
+msgid "What would you like to call your network?"
+msgstr "你想要如何稱呼你的網誌網路？"
+
+#: wp-admin/network.php:299
+msgid "Admin E-mail Address"
+msgstr "管理員電子郵件信箱"
+
+#: wp-admin/network.php:302
+msgid "Your email address."
+msgstr "你的電子郵件信箱。"
+
+#: wp-admin/network.php:336
+msgid "The original configuration steps are shown here for reference."
+msgstr "原始設定步驟將會顯示於此以供參考。"
+
+#: wp-admin/network.php:341
+msgid "An existing WordPress network was detected."
+msgstr "偵測到已有一個 WordPress 網誌網路存在。"
+
+#: wp-admin/network.php:342
+msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
+msgstr "請完成這些設定步驟。欲建立新的網誌網路，你將需要清空或移除網誌網路的資料表格。"
+
+#: wp-admin/network.php:349
+msgid "Enabling the Network"
+msgstr "啟用網誌網路"
+
+#: wp-admin/network.php:350
+msgid "Complete the following steps to enable the features for creating a network of sites."
+msgstr "請完成下列步驟以啟用建立網誌網路的相關功能。"
+
+#: wp-admin/network.php:353 wp-admin/network.php:355
+msgid "<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> and <code>%s</code> files."
+msgstr "<strong>注意：</strong>我們強烈建議你備份目前的 <code>wp-config.php</code> 與 <code>%s</code> 檔案。"
+
+#: wp-admin/network.php:357
+msgid "<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> file."
+msgstr "<strong>小心：</strong>我們建議你先備份原有的 <code>wp-config.php</code> 檔案。"
+
+#: wp-admin/network.php:364
+msgid "Create a <code>blogs.dir</code> directory at <code>%s/blogs.dir</code>. This directory is used to store uploaded media for your additional sites and must be writeable by the web server."
+msgstr "在 <code>%s/blogs.dir</code> 建立 <code>blogs.dir</code> 目錄。此目錄用於存放其他網誌上傳的媒體檔案，因此網頁伺服器需要有寫入權限。"
+
+#: wp-admin/network.php:368
+msgid "Add the following to your <code>wp-config.php</code> file in <code>%s</code> <strong>above</strong> the line reading <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:"
+msgstr "將下列文字加入你位於 <code>%s</code> 的 <code>wp-config.php</code> 檔案內，放在 <code>/* 設定完成，請儲存檔案。然後開始 Blogging 吧！ */</code> 該行<strong>上方</strong>："
+
+#: wp-admin/network.php:200
+msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
+msgstr "寫下方表單以便建立你的 WordPress 網誌網路。我們將於下個步驟建立設定檔案。"
+
+#: wp-admin/network.php:212
+msgid "Note:"
+msgstr "附註："
+
+#: wp-admin/network.php:212
+msgid "Please make sure the Apache <code>mod_rewrite</code> module is installed as it will be used at the end of this installation."
+msgstr "請確認 Apache <code>mod_rewrite</code> 模組已安裝，此安裝程序完成後將會使用到它。"
+
+#: wp-admin/network.php:399
+msgid "This unique authentication key is also missing from your <code>wp-config.php</code> file."
+msgid_plural "These unique authentication keys are also missing from your <code>wp-config.php</code> file."
+msgstr[0] "唯一登入用金鑰並未在你的 <code>wp-config.php</code> 檔案內。"
+
+#: wp-admin/network.php:172
+msgid "You cannot install a network of sites with your server address."
+msgstr "你無法用伺服器網址安裝網誌網路。"
+
+#: wp-admin/network.php:173
+msgid "You cannot use port numbers such as <code>%s</code>."
+msgstr "你不可使用這些網路埠號如 <code>%s</code>。"
+
+#: wp-admin/network.php:222
+msgid "You will need a wildcard DNS record if you are going to use the virtual host (sub-domain) functionality."
+msgstr "若你想使用虛擬主機（子網域）功能，你將需要一個網域名稱伺服器的泛解析紀錄（Wildcard DNS Record）。"
+
+#: wp-admin/network.php:216
+msgid "If <code>mod_rewrite</code> is disabled, ask your administrator to enable that module, or look at the <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">Apache documentation</a> or <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">elsewhere</a> for help setting it up."
+msgstr "若 <code>mod_rewrite</code> 模組被停用，請洽詢你的管理員啟用該模組，參考 <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">Apache 文件</a>或<a href=\"http://www.google.com/search?q=apache+mod_rewrite\">其它</a>以取得如何設定它。"
+
+#: wp-admin/network.php:196
+msgctxt "Default network name"
+msgid "%s Sites"
+msgstr "%s 的網誌"
+
+#: wp-admin/network.php:247 wp-admin/network.php:287
+msgid "The internet address of your network will be <code>%s</code>."
+msgstr "你的網誌網路位址將會是 <code>%s</code>。"
+
+#: wp-admin/network.php:194 wp-admin/network.php:214 wp-admin/network.php:262
+#: wp-admin/network.php:272
+msgid "Warning!"
+msgstr "警告！"
+
+#: wp-admin/network.php:226
+msgid "Sub-domains"
+msgstr "子網域"
+
+#: wp-admin/network.php:399
+msgid "To make your installation more secure, you should also add:"
+msgstr "欲讓你的安裝更為安全，你應該增加："
+
+#: wp-admin/network.php:107
+msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your install. Fill out the network details, and click install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
+msgstr "選擇子網域名稱或子目錄；一旦安裝完成就無法變更，除非重新設定你的安裝。填入網誌網路細項，然後點擊安裝。如果無法運作，你可能必須新增一個 wildcard DNS 紀錄（用於子網域名稱）或是變更固定網址（用於子目錄）。"
+
+#: wp-admin/network.php:108
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr "網誌網路設定的下一個畫面將提供你一些產生的原始碼，你需要加入到 wp-config.php 和 .htaccess 檔案中。請確定你的 FTP 客戶端軟體能夠顯示以點 (.) 開頭的檔案，這樣才能夠找到 .htaccess ；如果此檔案不存在，你需要建立一個新的 .htaccess 。變更前請備份這兩個檔案。"
+
+#: wp-admin/network.php:484
+msgid "Add the following to your <code>web.config</code> file in <code>%s</code>, replacing other WordPress rules:"
+msgstr "將下列文字加入你位於 <code>%s</code> 的 <code>web.config</code> 檔案內，替換其它 WordPress 規則："
+
+#: wp-admin/network.php:513
+msgid "Add the following to your <code>.htaccess</code> file in <code>%s</code>, replacing other WordPress rules:"
+msgstr "將下列文字加入你位於 <code>%s</code> 的 <code>.htaccess</code> 檔案內，替換其它 WordPress 規則："
+
+#: wp-admin/network.php:521
+msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
+msgstr "一旦你完成這些步驟，你的網誌網路便已啟用已設定。你將需要重新登入。"
+
+#: wp-admin/network.php:155
+msgid "The constant DO_NOT_UPGRADE_GLOBAL_TABLES cannot be defined when creating a network."
+msgstr "建立一個網誌網路時，不可以定義 DO_NOT_UPGRADE_GLOBAL_TABLES 。"
+
+#: wp-admin/network.php:253
+msgid "Network Details"
+msgstr "網誌網路細項"
+
+#: wp-admin/network.php:199
+msgid "Welcome to the Network installation process!"
+msgstr "歡迎來到網誌網路安裝程序！"
+
+#: wp-admin/network.php:214
+msgid "It looks like the Apache <code>mod_rewrite</code> module is not installed."
+msgstr "看似 Apache <code>mod_rewrite</code> 模組並未安裝。"
+
+#: wp-admin/network.php:113 wp-admin/network.php:124
+msgid "<a href=\"http://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Documentation on Creating a Network</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Create_A_Network\" target=\"_blank\">新增網誌網路說明文件</a>"
+
+#: wp-admin/network.php:111
+msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
+msgstr "子目錄網誌選項已停用，若現在的設定已經超過一個月，因主網誌永久連結與 &#8220;/blog/&#8221; 問題。這停用的問題將會在未來版本中解決。"
+
+#: wp-admin/network.php:163
+msgid "Once the network is created, you may reactivate your plugins."
+msgstr "一旦網誌網路建立完畢，你可重新啟用你的外掛。"
+
+#: wp-admin/network.php:163
+msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
+msgstr "啟用網誌網路功能前，請<a href=\"%s\">停用你的外掛</a>。"
+
+#: wp-admin/network.php:242
+msgid "We recommend you change your siteurl to <code>%1$s</code> before enabling the network feature. It will still be possible to visit your site using the <code>www</code> prefix with an address like <code>%2$s</code> but any links will not have the <code>www</code> prefix."
+msgstr "啟用網誌網路功能前，我們建議你將網站網址變更為 <code>%1$s</code>。這將仍維持原先使用 <code>www</code> 前綴造訪你網誌的方式如 <code>%2$s</code>，但其它鏈結將不會有 <code>www</code> 前綴。"
+
+#: wp-admin/network.php:257 wp-admin/network.php:267
+msgid "Sub-directory Install"
+msgstr "子目錄安裝"
+
+#: wp-admin/network.php:106
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr "你可以在此畫面設定使用子網域名稱（<code>site1.example.com</code>）或子目錄（<code>example.com/site1</code>）。若使用子網域名稱，你必須在 Apache 及 DNS 紀錄中啟用 wildcard 。"
+
+#: wp-admin/network.php:102
+msgid "Create a Network of WordPress Sites"
+msgstr "建立 WordPress 網誌網路"
+
+#: wp-admin/network.php:174
+msgid "Return to Dashboard"
+msgstr "回到控制台"
+
+#: wp-admin/network.php:194 wp-admin/network.php:366
+msgid "Networks may not be fully compatible with custom wp-content directories."
+msgstr "網誌網路可能無法與自訂的 wp-content 目錄完全相容。"
+
+#: wp-admin/network.php:27
+msgid "The Network creation panel is not for WordPress MU networks."
+msgstr "網誌網路建立頁面並非為 WordPress MU 網路設計。"
+
+#: wp-admin/network.php:163 wp-admin/network.php:341 wp-admin/network.php:366
+msgid "Warning:"
+msgstr "警告："
+
+#: wp-admin/network.php:221
+msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories. <strong>You cannot change this later.</strong>"
+msgstr "請選擇讓你的 WordPress 使用子網域或子目錄。<strong>設定完成後你無法改變它。</strong>"
+
+#: wp-admin/network.php:114 wp-admin/network.php:125
+msgid "<a href=\"http://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Documentation on the Network Screen</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">網誌網路畫面說明文件</a>"
+
+#: wp-admin/network.php:148
+msgid "Your <strong>WordPress address</strong> must match your <strong>Site address</strong> before creating a Network. See <a href=\"%s\">General Settings</a>."
+msgstr "建立網誌網路前，你的 <strong>WordPress 網址</strong>必須符合你的<strong>網誌網址</strong>。請參考<a href=\"%s\">一般設定</a>。"
+
+#: wp-admin/network.php:220
+msgid "Addresses of Sites in your Network"
+msgstr "你網誌網路內各網誌的位址"
+
+#: wp-admin/network.php:227
+msgctxt "subdomain examples"
+msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
+msgstr "像 <code>site1.%1$s</code> 與 <code>site2.%1$s</code>"
+
+#: wp-admin/network.php:118
+msgid "Network"
+msgstr "網誌網路"
+
+#: wp-admin/network.php:230
+msgid "Sub-directories"
+msgstr "子目錄"
+
+#: wp-admin/network.php:96
+msgid "You must define the <code>WP_ALLOW_MULTISITE</code> constant as true in your wp-config.php file to allow creation of a Network."
+msgstr "你必須於 wp-config.php 檔案中定義 <code>WP_ALLOW_MULTISITE</code> 常數為真（true）才允許建立網誌網路。"
+
+#: wp-admin/network.php:109
+msgid "Add a <code>blogs.dir</code> directory under <code>/wp-content</code> and add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr "在 <code>/wp-content</code> 下新增 <code>blogs.dir</code> 目錄，並加入以下原始碼至 wp-config.php （在 <code>/*...請儲存檔案。...*/</code> 之前）和 <code>.htaccess</code> （替代原有 WordPress 已存在的內容）。"
+
+#: wp-admin/network.php:186
+msgid "ERROR: The network could not be created."
+msgstr "錯誤：無法建立網誌網路。"
+
+#: wp-admin/network.php:110
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr "當你加入這些程式碼並重整瀏覽器之後，多站台就應該會啟用，此畫面是「網路管理員」的導覽選單，會持續保留加入代碼的文章。你可以點擊工具列中「網誌網路管理」或「我的網誌」下拉式選單裡的網站名稱，在「網誌網路管理」與「網誌管理」中切換。"
+
+#: wp-admin/network/site-info.php:17 wp-admin/network/site-settings.php:17
+#: wp-admin/network/site-users.php:17
+msgid "You do not have sufficient permissions to edit this site."
+msgstr "你沒有權限編輯此網誌。"
+
+#: wp-admin/network/users.php:144
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "警告！不可修改該帳號。該帳號 %s 為網誌網路管理員。"
+
+#: wp-admin/network/settings.php:28
+msgid "Dashboard Site is an option to give a site to users who do not have a site on the system. Their default role is Subscriber, but that default can be changed. The Admin Notice Feed can provide a notice on all dashboards of the latest post via RSS or Atom, or provide no such notice if left blank."
+msgstr "控制台網站是沒有網誌的使用者看到的頁面。他們預設角色是讀者，但可以變更為其它角色。管理通知 Feed 中可以填入 RSS 或 Atom ，所有網誌都將顯示指定網址中的最新文章，留空則不使用管理通知功能。"
+
+#: wp-admin/network/site-new.php:24
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "若新網誌的系統管理員電子郵件位址不存在，新帳號也會一併建立。"
+
+#: wp-admin/network/sites.php:36
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr "點擊「停用」、「封存」和「標記為垃圾」會引導你至確認畫面。這些動作日後可以回復。"
+
+#: wp-admin/network/sites.php:39
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
+msgstr "網誌 ID 僅在內部使用，不會在網誌前台顯示給使用者／讀者。"
+
+#: wp-admin/network/sites.php:33
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr "將滑鼠游標移到網誌上方，會出現七個選項（主網誌則會出現三個）："
+
+#: wp-admin/network/settings.php:27
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr "運行設定包括網誌網路名稱和管理員電子郵件位址。"
+
+#: wp-admin/network/users.php:236
+msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
+msgstr "你也可以透過點擊帳號名稱，前往其個人資訊頁面。"
+
+#: wp-admin/network/users.php:238
+msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
+msgstr "批次管理將永久刪除被選取的帳號，或標記／取消標記選擇的帳號為垃圾帳號。垃圾帳號發佈的文章將被刪除，而且無法使用原有的電子郵件位址註冊。"
+
+#: wp-admin/network/settings.php:31
+msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
+msgstr "上傳設定控制台每個網誌所能上傳的檔案大小、數量和檔案類型（用空格分隔）。你也可以對每個網誌做不同的限制。"
+
+#: wp-admin/network/index.php:31
+msgid "Blogs are now called Sites; Site is now called Network."
+msgstr "部落格變成網誌；網站現在是網誌網路。"
+
+#: wp-admin/network/index.php:30
+msgid "Site Admin is now Super Admin (we highly encourage you to get yourself a cape!)."
+msgstr "網誌管理員現在是超級管理員（我們強烈建議你加一件披風！）。"
+
+#: wp-admin/network/sites.php:38
+msgid "Visit to go to the frontend site live."
+msgstr "點擊可前往該網誌的前台。"
+
+#: wp-admin/network/index.php:29
+msgid "Until WordPress 3.0, running multiple sites required using WordPress MU instead of regular WordPress. In version 3.0, these applications have merged. If you are a former MU user, you should be aware of the following changes:"
+msgstr "自 WordPress 3.0 開始，WordPress MU 已經與 WordPress 合併。如果你之前使用 MU ，你應該注意以下變更："
+
+#: wp-admin/network/settings.php:30
+msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
+msgstr "新網誌設定是未來註冊的新網誌預設值。包含「歡迎」電子郵件，以及想放置的首篇文章、頁面、迴響、迴響作者和迴響網址。"
+
+#: wp-admin/network/themes.php:203
+msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
+msgstr "此畫面設定每個網誌的「佈景主題」選單中，可供使用者選擇的佈景主題。無法停用網誌正在使用的佈景主題。"
+
+#: wp-admin/network/themes.php:204
+msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
+msgstr "若網誌網路管理者停用正在使用的佈景主題，在該網誌上此佈景主題依然可以使用。如果該使用者選擇其它的佈景主題，那麼停用的佈景主題就不會再次顯示在網誌的外觀 > 佈景主題裡。"
+
+#: wp-admin/network/settings.php:26
+msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
+msgstr "此畫面可以對整個網誌網路的設定進行修改。第一個網誌是網誌網路內的主網誌，網誌網路的設定由原始網誌的選項設定中繼承。"
+
+#: wp-admin/network/settings.php:29
+msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
+msgstr "註冊設定可以關閉／開啟註冊功能。如果你允許其它人註冊，建議你安裝防垃圾外掛。你可以指定一些不允許作為網誌名稱的詞語，用空格分隔（請注意不是逗號）。"
+
+#: wp-admin/network/settings.php:32
+msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
+msgstr "選單設定允許你選擇一般使用者是否有權限自行控制外掛。"
+
+#: wp-admin/network/sites.php:32
+msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
+msgstr "這是此網誌網路中所有網誌清單。你可以點擊清單上方的按鈕，在「表列式」與「摘要」檢視間切換。"
+
+#: wp-admin/network/user-new.php:24
+msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
+msgstr "在網誌網路中註冊，且不擁有網誌的帳號將以讀者的角色加入主控制台網誌，讓他們能夠修改個人資料、管理自己的帳號。在他們建立自己的網誌前，只能在導覽選單中看到「控制台」和「我的網誌」。"
+
+#: wp-admin/network/users.php:237
+msgid "You can sort the table by clicking on any of the bold headings and switch between list and excerpt views by using the icons in the upper right."
+msgstr "你可以點擊加粗的標題來排序表格。右上角的圖示可以切換「表列式」和「摘要」檢視。"
+
+#: wp-admin/network/users.php:235
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to his or her Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "將滑鼠游標移動到帳號的上方，會出現編輯鏈結。左側的編輯鏈結是編輯帳號的；而右側的編輯鏈結用於編輯其所屬的網誌。"
+
+#: wp-admin/network/upgrade.php:27
+msgid "If this process fails for any reason, users logging in to their sites will force the same update."
+msgstr "若更新時因故中斷或失敗，登入網誌的使用者將被要求繼續進行更新。"
+
+#: wp-admin/network/upgrade.php:26
+msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgstr "若你沒有升級 WordPress 核心版本，點擊此按鈕是不會有任何作用的。"
+
+#: wp-admin/network/users.php:234
+msgid "This table shows all users across the network and the sites to which they are assigned."
+msgstr "此表格列出網誌網路內的所有帳號，以及他們所在的網誌。"
+
+#: wp-admin/network/users.php:239
+msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
+msgstr "你可以將現有的帳號設定為超級管理員，方法是在編輯帳號的畫面內，點擊選擇框以賦予該帳號權限。"
+
+#: wp-admin/network/site-new.php:50
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: <code>%s</code>"
+msgstr "下面的單字是保留給 WordPress 功能使用，因此無法作為網誌名稱：<code>%s</code>"
+
+#: wp-admin/network/upgrade.php:67
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: <em>%2$s</em>"
+msgstr "警告！更新 %1$s 時發生錯誤。你的伺服器可能無法連結至某些網誌。錯誤訊息：<em>%2$s</em>"
+
+#: wp-admin/network/settings.php:195
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "若你想自網誌註冊功能限制於某些網域。每行一個網域。"
+
+#: wp-admin/network/settings.php:205
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "若你想自網誌註冊功能阻擋某些網域名稱。每行一個網域。"
+
+#: wp-admin/network/settings.php:155
+msgid "If registration is disabled, please set <code>NOBLOGREDIRECT</code> in <code>wp-config.php</code> to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr "若註冊功能已關閉，請於 <code>wp-config.php</code> 中設定 <code>NOBLOGREDIRECT</code> 一個網址，讓訪客造訪不存在的網誌時被轉送至該處。"
+
+#: wp-admin/network/site-new.php:40
+msgid "Can&#8217;t create an empty site."
+msgstr "無法產生空的網誌。"
+
+#: wp-admin/network/upgrade.php:72
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "若你的瀏覽器並未自動載入下一頁，請點擊此鏈結："
+
+#: wp-admin/network/sites.php:273
+msgid "Site marked as spam."
+msgstr "網誌已標記為垃圾。"
+
+#: wp-admin/network/sites.php:246
+msgid "Sites marked as spam."
+msgstr "網誌已標記為垃圾。"
+
+#: wp-admin/network/sites.php:243
+msgid "Sites removed from spam."
+msgstr "網誌已自垃圾移除。"
+
+#: wp-admin/network/users.php:262
+msgid "Users removed from spam."
+msgstr "帳號已自垃圾移除。"
+
+#: wp-admin/network/sites.php:270
+msgid "Site removed from spam."
+msgstr "網誌已自垃圾移除。"
+
+#: wp-admin/network/sites.php:249
+msgid "Sites deleted."
+msgstr "已刪除網誌。"
+
+#: wp-admin/network/sites.php:252
+msgid "Site deleted."
+msgstr "已刪除網誌。"
+
+#: wp-admin/network/users.php:259
+msgid "Users marked as spam."
+msgstr "已標記帳號為垃圾。"
+
+#: wp-admin/network/site-info.php:140
+msgid "Update <code>siteurl</code> and <code>home</code> as well."
+msgstr "請一同更新 <code>網誌網址</code> 與 <code>主目錄</code>。"
+
+#: wp-admin/network/sites.php:267
+msgid "Site deactivated."
+msgstr "網誌已停用。"
+
+#: wp-admin/network/sites.php:264
+msgid "Site activated."
+msgstr "網誌已啟用。"
+
+#: wp-admin/network/sites.php:261
+msgid "Site unarchived."
+msgstr "網誌未彙整。"
+
+#: wp-admin/network/users.php:265
+msgid "Users deleted."
+msgstr "已刪除帳號。"
+
+#: wp-admin/network/sites.php:258
+msgid "Site archived."
+msgstr "網誌已彙整。"
+
+#: wp-admin/network/site-new.php:61
+msgid "Invalid email address."
+msgstr "不正確的電子郵件位址。"
+
+#: wp-admin/network/site-new.php:77
+msgid "There was an error creating the user."
+msgstr "建立帳號時發生錯誤。"
+
+#: wp-admin/network/sites.php:107 wp-admin/network/sites.php:208
+msgid "You are not allowed to change the current site."
+msgstr "你不可變更現在的網誌。"
+
+#: wp-admin/network/settings.php:291
+msgctxt "File size in kilobytes"
+msgid "%s KB"
+msgstr "%s KB"
+
+#: wp-admin/network/settings.php:136
+msgid "Registration and support emails will come from this address. An address such as <code>support@%s</code> is recommended."
+msgstr "註冊與支援郵件將會由此電子郵件位址寄送。建議使用像 <code>support@%s</code>。"
+
+#: wp-admin/network/settings.php:285
+msgid "Upload file types"
+msgstr "上傳檔案型態"
+
+#: wp-admin/network/settings.php:280
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "將檔案上傳空間限制為 %s MB"
+
+#: wp-admin/network/settings.php:263
+msgid "The author of the first comment on a new site."
+msgstr "新網誌第一則迴響的作者。"
+
+#: wp-admin/network/settings.php:237
+msgid "The first post on a new site."
+msgstr "新網誌第一篇文章。"
+
+#: wp-admin/network/settings.php:246
+msgid "The first page on a new site."
+msgstr "新網誌首頁。"
+
+#: wp-admin/network/settings.php:255
+msgid "The first comment on a new site."
+msgstr "新網誌第一則迴響。"
+
+#: wp-admin/network/settings.php:271
+msgid "The URL for the first comment on a new site."
+msgstr "新網誌第一則迴響的填入網址。"
+
+#: wp-admin/network/upgrade.php:58
+msgid "All done!"
+msgstr "全搞定！"
+
+#: wp-admin/network/settings.php:152
+msgid "Logged in users may register new sites."
+msgstr "已登入的帳號可註冊新網誌。"
+
+#: wp-admin/network/settings.php:153
+msgid "Both sites and user accounts can be registered."
+msgstr "可註冊使用者帳號及新網誌。"
+
+#: wp-admin/network/settings.php:151
+msgid "User accounts may be registered."
+msgstr "可註冊使用者帳號。"
+
+#: wp-admin/network/settings.php:150
+msgid "Registration is disabled."
+msgstr "註冊已被停用。"
+
+#: wp-admin/network/settings.php:318
+msgid "Enable administration menus"
+msgstr "啟用管理選單"
+
+#: wp-admin/network/settings.php:120
+msgid "Operational Settings"
+msgstr "運行上的設定"
+
+#: wp-admin/network/settings.php:315
+msgid "Menu Settings"
+msgstr "選單設定"
+
+#: wp-admin/network/settings.php:275
+msgid "Upload Settings"
+msgstr "上傳設定"
+
+#: wp-admin/network/settings.php:210
+msgid "New Site Settings"
+msgstr "新網誌設定"
+
+#: wp-admin/network/settings.php:140
+msgid "Registration Settings"
+msgstr "註冊設定"
+
+#: wp-admin/network/site-new.php:57
+msgid "Missing or invalid site address."
+msgstr "沒有或錯誤的網誌位址。"
+
+#: wp-admin/network/site-new.php:59
+msgid "Missing email address."
+msgstr "無電子郵件。"
+
+#: wp-admin/network/menu.php:59 wp-admin/network/upgrade.php:18
+#: wp-admin/network/upgrade.php:43 wp-admin/network/upgrade.php:85
+msgid "Update Network"
+msgstr "升級網誌網路"
+
+#: wp-admin/network/upgrade.php:84
+msgid "You can update all the sites on your network through this page. It works by calling the update script of each site automatically. Hit the link below to update."
+msgstr "你可透過此頁面更新網誌網路中全部網誌。它的工作方式為自動呼叫各網誌升級腳本。點擊下方鏈結來升級。"
+
+#: wp-admin/network/settings.php:132
+msgid "Network Admin Email"
+msgstr "網誌網路管理員電子郵件"
+
+#: wp-admin/network/settings.php:123
+msgid "Network Name"
+msgstr "網誌網路名稱"
+
+#: wp-admin/network/site-new.php:89
+msgid "[%s] New Site Created"
+msgstr "已新增網誌〔%s〕。"
+
+#: wp-admin/network/sites.php:213
+msgid "WordPress &rsaquo; Confirm your action"
+msgstr "WordPress &rsaquo; 確認你的動作"
+
+#: wp-admin/network/settings.php:219
+msgid "The welcome email sent to new site owners."
+msgstr "寄送給新網誌持有人的歡迎郵件。"
+
+#: wp-admin/network/settings.php:278
+msgid "Site upload space"
+msgstr "網誌上傳空間"
+
+#: wp-admin/network/settings.php:167
+msgid "Send the network admin an email notification every time someone registers a site or user account."
+msgstr "每當有人註冊新網誌或帳號時發送電子郵件通知給網誌網路管理員。"
+
+#: wp-admin/network/settings.php:183
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "使用者不被允許註冊這些網誌名稱。請用空格分開名稱。"
+
+#: wp-admin/network/upgrade.php:72
+msgid "Next Sites"
+msgstr "下個網誌"
+
+#: wp-admin/network/index.php:20 wp-admin/network/settings.php:17
+#: wp-admin/network/site-info.php:43 wp-admin/network/site-new.php:37
+#: wp-admin/network/site-settings.php:43 wp-admin/network/site-themes.php:61
+#: wp-admin/network/site-users.php:49 wp-admin/network/sites.php:17
+#: wp-admin/network/sites.php:62 wp-admin/network/sites.php:79
+#: wp-admin/network/sites.php:121 wp-admin/network/sites.php:131
+#: wp-admin/network/sites.php:141 wp-admin/network/sites.php:152
+#: wp-admin/network/sites.php:163 wp-admin/network/sites.php:173
+#: wp-admin/network/sites.php:183 wp-admin/network/sites.php:193
+#: wp-admin/network/upgrade.php:39 wp-admin/network/user-new.php:36
+#: wp-admin/network/users.php:17 wp-admin/network/users.php:95
+#: wp-admin/network/users.php:117 wp-admin/network/users.php:130
+#: wp-admin/network/users.php:181
+msgid "You do not have permission to access this page."
+msgstr "你沒有權限瀏覽此頁面。"
+
+#: wp-admin/network/sites.php:229
+msgid "Confirm"
+msgstr "確認"
+
+#: wp-admin/network/user-new.php:39
+msgid "Cannot create an empty user."
+msgstr "無法產生空的使用者帳號。"
+
+#: wp-admin/network/site-users.php:234
+msgid "Duplicated username or email address."
+msgstr "重複的帳號或電子郵件信箱。"
+
+#: wp-admin/network/settings.php:143
+msgid "Allow new registrations"
+msgstr "允許註冊"
+
+#: wp-admin/network/settings.php:161
+msgid "Registration notification"
+msgstr "註冊通知"
+
+#: wp-admin/network/settings.php:172
+msgid "Add New Users"
+msgstr "新增帳號"
+
+#: wp-admin/network/settings.php:179
+msgid "Banned Names"
+msgstr "禁止名稱"
+
+#: wp-admin/network/settings.php:188
+msgid "Limited Email Registrations"
+msgstr "限制電子郵件註冊"
+
+#: wp-admin/network/settings.php:200
+msgid "Banned Email Domains"
+msgstr "阻擋郵件網域"
+
+#: wp-admin/network/settings.php:214
+msgid "Welcome Email"
+msgstr "歡迎用電子郵件"
+
+#: wp-admin/network/settings.php:223
+msgid "Welcome User Email"
+msgstr "新帳號歡迎郵件"
+
+#: wp-admin/network/settings.php:228
+msgid "The welcome email sent to new users."
+msgstr "寄送給新網誌成員的歡迎郵件。"
+
+#: wp-admin/network/settings.php:241
+msgid "First Page"
+msgstr "首頁"
+
+#: wp-admin/network/settings.php:250
+msgid "First Comment"
+msgstr "首則迴響"
+
+#: wp-admin/network/settings.php:259
+msgid "First Comment Author"
+msgstr "首則迴響作者"
+
+#: wp-admin/network/settings.php:267
+msgid "First Comment URL"
+msgstr "首則迴響網址"
+
+#: wp-admin/network/settings.php:290
+msgid "Max upload file size"
+msgstr "最大檔案上傳大小"
+
+#: wp-admin/network/settings.php:303
+msgid "Default Language"
+msgstr "預設語言"
+
+#: wp-admin/network/site-new.php:146
+msgid "Add Site"
+msgstr "新增網誌"
+
+#: wp-admin/network/site-new.php:123
+msgid "Site Address"
+msgstr "網誌位址"
+
+#: wp-admin/network/site-new.php:130
+msgid "Only the characters a-z and 0-9 recommended."
+msgstr "僅建議使用字元 a-z 與 0-9。"
+
+#: wp-admin/network/site-new.php:139
+msgid "Admin Email"
+msgstr "管理電子郵件位址"
+
+#: wp-admin/network/site-new.php:143
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "這將會建立一個新帳號，若前述電子郵件位址沒有在資料庫中。"
+
+#: wp-admin/network/site-new.php:143
+msgid "The username and password will be mailed to this email address."
+msgstr "使用者帳號與密碼將會寄送至此電子郵件位址。"
+
+#: wp-admin/network/site-users.php:319 wp-admin/network/user-new.php:99
+msgid "Username and password will be mailed to the above email address."
+msgstr "密碼將會透過上方電子郵件寄給你。"

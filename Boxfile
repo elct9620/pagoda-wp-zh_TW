@@ -1,0 +1,16 @@
+web1:
+  name: wp
+  shared_writable_dirs:
+    - wp-content/plugins
+    - wp-content/themes
+    - wp-content/uploads
+  document_root: app/
+  php_extensions:
+    - mysql
+    - curl
+    - eaccelerator
+  after_build:
+    - "cp pagoda/themes app/wp-content/themes"
+db1:
+  name: wpdb
+  type: mysql
