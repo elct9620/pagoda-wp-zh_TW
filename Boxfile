@@ -10,8 +10,8 @@ web1:
     - curl
     - eaccelerator
   after_build:
-    - "mv pagoda/themes shared/wp-content/themes"
-    - "mv pagoda/plugins shared/wp-content/plugins"
+    - "mv pagoda/themes app/wp-content/themes"
+    - "mv pagoda/plugins app/wp-content/plugins"
 db1:
   name: wpdb
   type: mysql
