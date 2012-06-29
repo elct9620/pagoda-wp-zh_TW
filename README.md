@@ -1,4 +1,4 @@
-pagoda-wp-zh_TW
+PagodaBox Quickstart - WordPress 正體中文
 ===============
 
-WordPress zh_TW on PagodaBox
+這是 [PagodaBox](http://pagodabox.com) 上 WordPress 正體中文的 Quickstart
