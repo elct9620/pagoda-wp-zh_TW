@@ -9,7 +9,7 @@ web1:
     - mysql
     - curl
     - eaccelerator
-  after_deploy:
+  before_deploy:
     - "mv pagoda/themes app/wp-content/themes"
     - "mv pagoda/plugins app/wp-content/plugins"
 db1:
