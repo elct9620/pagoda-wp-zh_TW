@@ -10,7 +10,7 @@ web1:
     - curl
     - eaccelerator
   after_build:
-    - "cp pagoda/themes app/wp-content/themes"
+    - "cp ../pagoda/themes wp-content/themes"
 db1:
   name: wpdb
   type: mysql
