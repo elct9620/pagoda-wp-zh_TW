@@ -9,9 +9,9 @@ web1:
     - mysql
     - curl
     - eaccelerator
-  after_build:
-    - "mv pagoda/themes app/wp-content/themes"
-    - "mv pagoda/plugins app/wp-content/plugins"
+  after_deploy:
+    - "mv pagoda/themes shared/app/wp-content/themes"
+    - "mv pagoda/plugins shared/app/wp-content/plugins"
 db1:
   name: wpdb
   type: mysql
