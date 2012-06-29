@@ -1,9 +1,9 @@
 web1:
   name: wp
   shared_writable_dirs:
-    - wp-content/plugins
-    - wp-content/themes
-    - wp-content/uploads
+    - wp-content/plugins/
+    - wp-content/themes/
+    - wp-content/uploads/
   document_root: app/
   php_extensions:
     - mysql
