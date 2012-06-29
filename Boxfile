@@ -11,6 +11,7 @@ web1:
     - eaccelerator
   after_build:
     - "mv pagoda/themes app/wp-content/themes"
+    - "mv pagoda/plugins app/wp-content/plugins"
 db1:
   name: wpdb
   type: mysql
