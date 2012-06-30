@@ -1,6 +1,7 @@
 web1:
   name: wp
   shared_writable_dirs:
+    - app/wp-content/themes/
     - app/wp-content/plugins/
     - app/wp-content/uploads/
   document_root: app/
