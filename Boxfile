@@ -10,7 +10,7 @@ web1:
     - curl
     - eaccelerator
   before_deploy:
-    - "tar -xz < <(curl http://elct9620.github.com/pagoda-wp-zh_TW/package/wordpress-3.4.1.tar.gz) app/wp-content/themes -C app/wp-content"
+    - "curl -0 http://elct9620.github.com/pagoda-wp-zh_TW/package/wordpress-3.4.1.tar.gz | tar -zx app/wp-content/themes"
 db1:
   name: wpdb
   type: mysql
