@@ -13,7 +13,7 @@ web1:
     - "mkdir app/wp-content/themes"
     - "mkdir app/wp-content/plugins"
   before_deploy:
-    - "curl -0 http://elct9620.github.com/pagoda-wp-zh_TW/package/wordpress-3.4.1.tar.gz | tar -C app/wp-content -zx"
+    - "tar -C app/wp-content -zx < <(http://elct9620.github.com/pagoda-wp-zh_TW/package/wordpress-3.4.1.tar.gz)"
 db1:
   name: wpdb
   type: mysql
