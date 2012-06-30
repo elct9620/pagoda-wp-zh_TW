@@ -8,6 +8,8 @@ web1:
     - mysql
     - curl
     - eaccelerator
+  before_deploy:
+    - "tar -xz $(wget http://tw.wordpress.org/wordpress-3.4.1-zh_TW.tar.gz)"
 db1:
   name: wpdb
   type: mysql
