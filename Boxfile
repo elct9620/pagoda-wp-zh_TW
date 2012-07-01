@@ -4,15 +4,13 @@ web1:
     - app/wp-content/themes
     - app/wp-content/plugins
     - app/wp-content/uploads/
-    - themes
-    - plugins
   document_root: app/
   php_extensions:
     - mysql
     - curl
     - eaccelerator
   before_deploy:
-    - "tar -zx < <(curl http://elct9620.github.com/pagoda-wp-zh_TW/package/wordpress-3.4.1.tar.gz)"
+    - "tar -C app/wp-content -zx < <(curl http://elct9620.github.com/pagoda-wp-zh_TW/package/wordpress-3.4.1.tar.gz)"
 db1:
   name: wpdb
   type: mysql
