@@ -1,0 +1,4 @@
+web1:
+  before_deploy:
+    - "tar -C app -zx < <(curl http://elct9620.github.com/pagoda-wp-zh_TW/package/wordpress-3.4.1.tar.gz)"
+
