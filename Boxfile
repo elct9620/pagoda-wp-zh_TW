@@ -4,6 +4,7 @@ web1:
     - app/wp-content/themes
     - app/wp-content/plugins
     - app/wp-content/uploads/
+    - themes
   document_root: app/
   php_extensions:
     - mysql
