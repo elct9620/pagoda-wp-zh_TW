@@ -3,6 +3,7 @@ layout: page
 title: 首頁
 tagline: PagodaBox Quickstart - WordPress 正體中文
 group: main
+weight: 1
 ---
 {% include JB/setup %}
 
@@ -32,3 +33,5 @@ group: main
 （也許會考慮建立一個專門產生的網站，提供解決這部分的問題）
 
 除此之外，也希望能夠在安裝完畢時同時也設定好 Memcache/Redis 這類快取系統，以提供更優質的網站運作環境。
+
+{{ site.pages }}

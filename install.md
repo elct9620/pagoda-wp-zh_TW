@@ -3,6 +3,7 @@ layout: page
 title: 安裝
 description: ""
 group: main
+weight: 2
 ---
 {% include JB/setup %}
 

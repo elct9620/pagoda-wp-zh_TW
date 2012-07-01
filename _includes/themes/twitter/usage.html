@@ -5,7 +5,7 @@
 <div class="row">
   <div class="span4">
     <ul class="nav nav-pills nav-stacked">
-      {% assign pages_list = site.pages %}
+      {% assign pages_list = site.weighted_pages %}
       {% assign group = 'usage' %}
       {% include JB/pages_list %}
     </ul>

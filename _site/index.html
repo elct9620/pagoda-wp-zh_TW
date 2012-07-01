@@ -45,17 +45,13 @@
   
     
       
-    
-  
-    
-      
-    
-  
-    
-      
       	
       	<li class="active"><a href="/index.html" class="active">首頁</a></li>
       	
+      
+    
+  
+    
       
     
   
@@ -69,29 +65,33 @@
   
     
       
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
       	
       	<li><a href="/usage.html">使用</a></li>
       	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
       
     
   
@@ -146,6 +146,134 @@
 （也許會考慮建立一個專門產生的網站，提供解決這部分的問題）</p>
 
 <p>除此之外，也希望能夠在安裝完畢時同時也設定好 Memcache/Redis 這類快取系統，以提供更優質的網站運作環境。</p>
+
+<p>&lt;?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"></p>
+
+<p> <title>WPPB 正體中文</title>
+ <link href="http://elct9620.github.com/pagoda-wp-zh_TW/atom.xml" rel="self"/>
+ <link href="http://elct9620.github.com/pagoda-wp-zh_TW"/>
+ <updated>2012-07-01T20:08:14+08:00</updated>
+ <id>http://elct9620.github.com/pagoda-wp-zh_TW</id>
+ <author>
+   <name>蒼時弦也</name>
+   <email>elct9620@frost.tw</email>
+ </author></p>
+
+<p></feed></p>
+
+<ul class="tag_box inline">
+  
+  
+
+
+  
+    
+  
+
+
+</ul>
+
+
+<p>{% include JB/setup %}</p>
+
+<p>想要開始使用，請閱讀 <a href="install.html">安裝</a> 部分</p>
+
+<h2>關於 WPPB 正體中文</h2>
+
+<hr />
+
+<p>這是由 {{ site.author.name }} 所製作的 PagodaBox Quickstart</p>
+
+<p>主要是提供初次架設網站，或者需要快速在雲端平台上架設 WordPress 的人使用。</p>
+
+<h2>主要功能</h2>
+
+<hr />
+
+<ul>
+<li>快速安裝 WordPress</li>
+<li>線上安裝插件、佈景</li>
+</ul>
+
+
+<p>因為雲端平台大多是「唯獨」檔案系統，因此沒辦法提供更新版本的功能。</p>
+
+<h2>功能追加</h2>
+
+<hr />
+
+<p>即使現在已經沒有使用上的問題，不過仍希望能有更優質的環境。</p>
+
+<p>目前，唯一的問題是 wp-config.php 設定檔的產生，因為沒有辦法順利改寫，因此 AUTH TOKEN 仍是固定的，這是目前最需要修正的部分。<br />
+（也許會考慮建立一個專門產生的網站，提供解決這部分的問題）</p>
+
+<p>除此之外，也希望能夠在安裝完畢時同時也設定好 Memcache/Redis 這類快取系統，以提供更優質的網站運作環境。</p>
+
+<p>{{ site.pages }}
+{% include JB/setup %}</p>
+
+<p>在一般 PaaS 環境上運行需要經過：</p>
+
+<ul>
+<li>創建 Application</li>
+<li>初始化 Git</li>
+<li>撰寫設定檔（部分不需要）</li>
+<li>新增遠端 Repo 伺服器</li>
+<li>上傳</li>
+</ul>
+
+
+<p>不過 PagodaBox 提供了直接從 Git Repo 下載後運行的服務，並且加以整合為 QuickStart 功能。</p>
+
+<p>透過這個功能，只需要打開 <a href="https://pagodabox.com/cafe/elct9620/wordpress-zhtw">WPPB 正體中文 QuickStart</a> 的頁面，點選 Lunch 即可。</p>
+
+<p>這個過程中將會完成下列的動作：</p>
+
+<ul>
+<li>建立一個 Web Instance</li>
+<li>建立一個 MySQL Instance</li>
+<li>配置好 wp-config.php</li>
+<li>將 wp-content 設定為可寫入</li>
+</ul>
+
+
+<p>之後打開您的 Application 並且輸入管理員帳號密碼以及信箱，就可以完成安裝。
+{% include JB/setup %}</p>
+
+<h2>All Pages</h2>
+
+
+<ul>
+{% assign pages_list = site.pages %}
+{% include JB/pages_list %}
+</ul>
+
+
+<p>{% for page in site.pages %}
+{{site.production_url}}{{ page.url }}{% endfor %}
+{% for post in site.posts %}
+{{site.production_url}}{{ post.url }}{% endfor %}{% include JB/setup %}</p>
+
+<ul class="tag_box inline">
+  {% assign tags_list = site.tags %}  
+  {% include JB/tags_list %}
+</ul>
+
+
+<p>{% for tag in site.tags %}
+  <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
+  <ul></p>
+
+<pre><code>{% assign pages_list = tag[1] %}  
+{% include JB/pages_list %}
+</code></pre>
+
+<p>  </ul>
+{% endfor %}
+{% include JB/setup %}
+{% include JB/setup %}
+{% include JB/setup %}</p>
 
   </div>
 </div>
