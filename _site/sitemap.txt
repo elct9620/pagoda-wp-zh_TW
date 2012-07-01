@@ -1,0 +1,12 @@
+
+http://elct9620.github.com/pagoda-wp-zh_TW/archive.html
+http://elct9620.github.com/pagoda-wp-zh_TW/atom.xml
+http://elct9620.github.com/pagoda-wp-zh_TW/categories.html
+http://elct9620.github.com/pagoda-wp-zh_TW/index.html
+http://elct9620.github.com/pagoda-wp-zh_TW/install.html
+http://elct9620.github.com/pagoda-wp-zh_TW/pages.html
+http://elct9620.github.com/pagoda-wp-zh_TW/sitemap.txt
+http://elct9620.github.com/pagoda-wp-zh_TW/tags.html
+http://elct9620.github.com/pagoda-wp-zh_TW/usage/git.html
+http://elct9620.github.com/pagoda-wp-zh_TW/usage/upgrade.html
+http://elct9620.github.com/pagoda-wp-zh_TW/usage.html
