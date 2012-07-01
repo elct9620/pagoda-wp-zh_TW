@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh_TW">
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
@@ -32,7 +32,6 @@
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <ul class="nav">
             {% assign pages_list = site.weighted_pages %}
-            <!-- {% assign group = 'navigation' %} -->
             {% assign group = 'main' %}
             {% include JB/pages_list %}
           </ul>
