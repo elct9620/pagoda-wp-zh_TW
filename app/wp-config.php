@@ -99,6 +99,13 @@ define ('WPLANG', 'zh_TW');
 //define('WP_CACHE', false);
 
 /**
+ * Memcached
+ */
+
+global $memcached_servers;
+$memcached_servers = array('default' => 'tunnel.pagodabox.com:11211');
+
+/**
  * 啟用多網誌站台與網誌網路功能
  *
  * 若 WP_ALLOW_MULTISITE 值為 true 可啟用多網誌站台功能。

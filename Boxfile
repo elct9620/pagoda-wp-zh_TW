@@ -7,6 +7,10 @@ web1:
     - mysql
     - curl
     - eaccelerator
+    - memcache
 db1:
   name: wpdb
   type: mysql
+cache1:
+  name: wpcache
+  type: memcached
