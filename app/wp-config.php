@@ -103,7 +103,11 @@ define ('WPLANG', 'zh_TW');
  */
 
 global $memcached_servers;
-$memcached_servers = array('default' => 'tunnel.pagodabox.com:11211');
+$memcached_servers = array('default' =>
+  array(
+    'tunnel.pagodabox.com:11211'
+  )
+);
 
 /**
  * 啟用多網誌站台與網誌網路功能
